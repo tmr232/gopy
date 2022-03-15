@@ -1,7 +1,9 @@
 # gopy
 Implementing Go semantics in Python!
 
-## Example (main.py)
+## Example
+
+**main.py**
 
 ```python
 from gopy import *
@@ -33,4 +35,14 @@ def main():
     print(f"{Enum.One=}\n"
           f"{Enum.Two=}\n"
           f"{Enum.Three=}")
+```
+
+**Output**
+
+```text
+Hello, Golang!
+Enum.One=1
+Enum.Two=2
+Enum.Three=3
+Goodbye, Golang.
 ```
